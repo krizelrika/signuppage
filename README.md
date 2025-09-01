@@ -1,26 +1,16 @@
-# signuppage
-Sign-up Form Project
+# Sign Up Page (Sakura Quest)
 
-A simple sign-up form layout built with HTML and CSS, inspired by The Odin Project
- curriculum. This project focuses on structuring a form, styling inputs with pseudo-classes, and creating a visually appealing two-column layout.
+A simple sign-up form layout built with HTML and CSS, inspired by The Odin Project curriculum. This project focuses on structuring a form, styling inputs with pseudo-classes, and creating a visually appealing two-column layout.
 
-Features
-
-Two-column layout:
-
-Left sidebar with a full-height background image, dark semi-transparent overlay, and “ODIN” logo.
-
-Right section containing form content.
-
-Custom font: External font used for the logo (e.g., Norse Bold or any decorative font).
-
-Form structure:
-
-Headline and motivational text above the form.
-
-Input fields arranged in a two-column grid:
-
-First Name
+## Features
+- Two-column layout:
+    Left sidebar with a full-height background image, dark semi-transparent overlay, and “ODIN” logo.
+    Right section containing form content.
+- Custom font: External font used for the logo (e.g., Norse Bold or any decorative font).
+- Form structure:
+    Headline and motivational text above the form.
+    Input fields arranged in a two-column grid:
+        * First Name
 
 Last Name
 
@@ -42,7 +32,7 @@ Invalid state: red border on password inputs if invalid (:invalid pseudo-class).
 
 Button:
 
-“Create Account” button styled in #596D48, matching tones from the sidebar background image.
+“Start Your Adventure” button styled in #596D48, matching tones from the sidebar background image.
 
 Hover effects for better user interaction.
 
