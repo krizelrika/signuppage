@@ -10,49 +10,23 @@ A simple sign-up form layout built with HTML and CSS, inspired by The Odin Proje
 - Form structure:
     Headline and motivational text above the form.
     Input fields arranged in a two-column grid:
-        * First Name
+    * First Name
+    * Last Name
+    * Email
+    * Phone Number
+    * Password
+    * Confirm Password
+- Input styling: Hover effects for better user interaction.
+- Footer link: Text below the form — “Already have an account? Log in”.
+- Accessibility: Semantic HTML for inputs and labels.
+- Image credit: Background image credited at the bottom of the sidebar (e.g., “Photo by David Clode on Unsplash”).
 
-Last Name
+## Tech Stack
+- HTML5 for page structure.
+- CSS for layout, styling, pseudo-classes, and hover/focus effects.
+- (Optional) JavaScript can be updated later for full form validation.
 
-Email
-
-Phone Number
-
-Password
-
-Confirm Password
-
-Input styling:
-
-Default light border (#E5E7EB).
-
-Focus state: blue border with subtle box-shadow.
-
-Invalid state: red border on password inputs if invalid (:invalid pseudo-class).
-
-Button:
-
-“Start Your Adventure” button styled in #596D48, matching tones from the sidebar background image.
-
-Hover effects for better user interaction.
-
-Footer link: Text below the form — “Already have an account? Log in”.
-
-Accessibility: Semantic HTML for inputs and labels.
-
-Image credit: Background image credited at the bottom of the sidebar (e.g., “Photo by Halie West on Unsplash”).
-
-Notes
-
-Validation: Only individual field validation is implemented using HTML5 and CSS (:invalid).
-
-Password matching: Not required yet — full form validation with JavaScript is covered in a later lesson.
-
-Responsiveness: This version is desktop-only. Responsive design will be addressed in future curriculum sections.
-
-Tech Stack
-HTML5 for page structure.
-
-CSS3 for layout, styling, pseudo-classes, and hover/focus effects.
-
-(Optional) JavaScript can be added later for full form validation.
+### Notes
+- Validation: Only individual field validation is implemented using HTML5 and CSS (:invalid).
+- Password matching: Not required yet — full form validation with JavaScript is covered in a later lesson.
+- Responsiveness: This version is desktop-only. Responsive design will be addressed in future curriculum sections.
