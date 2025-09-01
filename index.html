@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    
+    <title>Sakura Quest - Join the Adventure!</title>
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Floating decorative elements -->
+    <div class="floating-element">🌸</div>
+    <div class="floating-element">⭐</div>
+    <div class="floating-element">🦋</div>
+
     <!-- Left Sidebar -->
     <div class="sidebar">
         <div class="logo-container">
-            <div class="logo">ODIN</div>
-            <div class="project-name">Sign Up Project</div>
+            <div class="logo">SAKURA QUEST</div>
+            <div class="project-name">Adventure Awaits</div>
+            <div class="tagline">Join the magical journey</div>
         </div>
         <div class="photo-credit">
-            Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>
+            Photo by <a href="https://unsplash.com/@davidclode" target="_blank">David Clode</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>
         </div>
     </div>
 
@@ -23,43 +29,43 @@
     <div class="form-section">
         <div class="form-content">
             <div class="headline">
-                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>
-                You <em>know</em> you want to.
+                Ready to embark on an epic adventure? 🎌 Create your character and join thousands of players in the most enchanting anime world ever created!<br><br>
+                Your destiny awaits! ✨
             </div>
 
-            <div class="subheading">Let's do this!</div>
+            <div class="subheading">Create Your Character</div>
 
-            <form class="form">
+            <form class="form" id="signup-form">
                 <div class="form-grid">
                     <div class="form-group">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" required>
+                        <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
                     </div>
                     <div class="form-group">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" required>
+                        <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
+                        <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password" required minlength="8">
+                        <input type="password" id="password" name="password" required minlength="8" placeholder="Create a strong password">
                     </div>
                     <div class="form-group">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required minlength="8">
+                        <input type="password" id="confirm-password" name="confirm-password" required minlength="8" placeholder="Confirm your password">
                     </div>
                 </div>
             </form>
 
-            <button type="submit" class="create-account-btn">Create Account</button>
-            <div class="login-link">Already have an account? <a href="#">Log in</a></div>
+            <button type="submit" class="create-account-btn" form="signup-form">Start Your Adventure</button>
+            <div class="login-link">Already have an account? <a href="#">Log in here</a></div>
         </div>
     </div>
 </body>
