@@ -4,7 +4,7 @@ A simple sign-up form layout built with HTML and CSS, inspired by The Odin Proje
 
 ## Features
 - Two-column layout:
-    Left sidebar with a full-height background image, dark semi-transparent overlay, and “ODIN” logo.
+    Left sidebar with a full-height background image, dark semi-transparent overlay, and “ODIN” logo. (which is now "SAKURA QUEST")
     Right section containing form content.
 - Custom font: External font used for the logo (e.g., Norse Bold or any decorative font).
 - Form structure:
